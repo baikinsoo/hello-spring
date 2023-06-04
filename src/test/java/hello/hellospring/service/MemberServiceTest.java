@@ -21,6 +21,7 @@ class MemberServiceTest {
     public void afterEach() {
         memberRepository.clearStore();
     }
+
     @Test
     public void 회원가입() throws Exception {
         //Given
